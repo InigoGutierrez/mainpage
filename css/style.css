@@ -1,0 +1,81 @@
+body {
+	background-color: darkblue;
+	background-image: url(../img/bg.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+}
+
+header {
+	float: left;
+	padding: 2% 0% 0% 6%;
+}
+
+h1 {
+	color: white;
+	font-family: serif;
+	font-size: 2.3em;
+	font-weight: bold;
+	font-variant: small-caps;
+	text-shadow: 1px 1px darkblue;
+	background-color: rgba(60,0,120,0.6);
+	border-radius: 20px;
+	padding: 5px 20px 8px;
+}
+
+.searches {
+	text-align: center;
+	float: right;
+	padding: 8% 10% 0% 0%;
+}
+
+.psb {
+	background-color: rgba(60,0,120,0.8);
+	border-radius: 10px;
+	width: 120%;
+	height: 150%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.psb * + * {
+	margin-left: 8px;
+}
+.searches input[type=button] {
+	text-decoration: none;
+	font-family: serif;
+	font-size: 1em;
+	color: white;
+	background: none;
+	border: none;
+	background-color: rgba(0,100,120,0.8);
+	border-radius: 10px;
+	text-shadow: 1px 1px darkblue;
+	padding: 4px 16px;
+}
+
+input[type=button]:focus {
+	background-color: rgba(0,190,220,0.8);
+}
+
+.searches input[type=text] {
+	padding: 2px 5px ;
+	font-family: serif;
+	font-size: 0.8em;
+	text-align: center;
+	caret-color: rgba(0,0,0,0.2);
+	border-radius: 5px;
+	border: none;
+	background-color: rgba(140,220,255,1);
+	width: 10px;
+	transition: ease-in-out, width .1s ease-in-out;
+}
+
+input[type=text]:focus {
+	border: none;
+	width: 100px;
+}
+
+*:focus {
+	outline: none;
+}

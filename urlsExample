@@ -1,0 +1,9 @@
+'ddg': 'https://duckduckgo.com/?q={}' #duckduckgo
+'w': 'https://en.wikipedia.org/?search={}' #wikipedia
+'we': 'https://es.wikipedia.org/?search={}' #wikipedia(ES)
+'aw': 'https://wiki.archlinux.org/?search={}' #archWiki
+'y': 'https://www.youtube.com/results?search_query={}' #youtube
+'tw': 'https://twitter.com/{}' #twitter
+'gh': 'https://www.github.com/search?q={}' #github
+'ep': 'https://emojipedia.org/search/?q={}' #emojipedia
+'gi': 'https://game-icons.net/search.html?q={}' #game-icons
